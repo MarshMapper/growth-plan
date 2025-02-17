@@ -1,0 +1,6 @@
+@GrowthPlan.Web_HostAddress = http://localhost:5068
+
+GET {{GrowthPlan.Web_HostAddress}}/plants/
+Accept: application/json
+
+###

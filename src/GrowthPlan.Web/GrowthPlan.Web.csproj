@@ -4,10 +4,17 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>8c8ac0a2-9172-456f-8c1a-ba06798dcb88</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GrowthPlan.Application\GrowthPlan.Application.csproj" />
+    <ProjectReference Include="..\GrowthPlan.Domain\GrowthPlan.Domain.csproj" />
+    <ProjectReference Include="..\GrowthPlan.Infrastructure\GrowthPlan.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
